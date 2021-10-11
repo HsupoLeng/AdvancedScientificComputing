@@ -8,3 +8,4 @@ lectures/intro/linked_figures
 homeworks/learning_julia1.pdf
 homeworks/learning_julia2.pdf
 homeworks/*_answers.jl
+misc/
