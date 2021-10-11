@@ -42,7 +42,7 @@ Answers here should be pasted into the Markdown file.  If you need an introducti
 1. Show how you access the help from the REPL on `+`, and then demonstrate two ways of using `+`.  (Use the REPL; in this case, the VS Code documentation browser may be more confusing than helpful.) Paste your answer below:
 
 Type `?` in the Julia REPL, then
-```
+```julia
 help?> +
 search: +
 
@@ -52,7 +52,7 @@ search: +
   ...messages
 ```
 Following the examples 
-```
+```julia
 julia> 1 + 1
 2
 
@@ -63,11 +63,11 @@ julia> +(1, -1)
 
 3. The very important [XKCD package](https://github.com/joshday/XKCD.jl) allows you to analyze the history of the comic strip.  To demonstrate facility with modules, packages, and their documentation:
    - Add the XKCD package 
-   ```
+   ```julia
    (@v1.6) pkg> add XKCD 
    ```
    - Having read the documentation on GitHub, use the package to retrieve the most recent comic and paste its "img" URL here:
-   ```
+   ```julia
    julia> Comic()
    ...messages
    "img": "https://imgs.xkcd.com/comics/tsp_vs_tbsp.png", 
